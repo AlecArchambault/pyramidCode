@@ -3,7 +3,8 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
-   public static void main(String[] args) {
+   //Rewrite so that it uses get on a url input and based on the boolean reponse returns the correct http response
+	public static void main(String[] args) {
 	   System.out.print("Enter string: ");
 	   Scanner input = new Scanner(System.in);
 	   String in = input.nextLine();
